@@ -4,13 +4,13 @@
 int cp_Plays();
 void scoreboards(int wins, int loses);
 
-int main()
+int main() //main function
 {
     int cp_choose, wins=0, loses=0, turns=0, user_selection, wrong;
 
     printf("Let's play rock paper scissors!\nWhat will you choose first? Rock, paper, scissors?\n\n");
 
-    do
+    do //loop to give the 
     {
         printf("Press 0 for scissors\n");
     	printf("Press 1 for paper\n");
